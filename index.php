@@ -22,7 +22,7 @@ include($file);
   <link href="css/style.css" rel="Stylesheet" type="text/css"/>
 </head>
 <body>
-	<h1><?php echo $elements["title1"];?></h1>
+	<h1 class="head-title"><?php echo $elements["title1"];?></h1>
 	
 	<form method="POST" action="solution.php"  name="quiz-html">
 		<ol type="1">
